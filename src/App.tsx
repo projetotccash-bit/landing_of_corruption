@@ -91,7 +91,12 @@ export default function App() {
       <section className="trailer" id="trailer">
         <h2>Trailer</h2>
         <div className="trailer-box">
-          <video src="/trailer.mp4" controls preload="metadata" className="trailer-video" />
+          <iframe
+            src="https://www.youtube.com/embed/Q3hXWzH4iNA"
+            title="Lands of Corruption - Trailer Oficial"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
         </div>
       </section>
 
