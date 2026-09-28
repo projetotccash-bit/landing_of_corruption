@@ -50,9 +50,6 @@ export default function App() {
         <div className="hero-content">
           <img src={logoTitle} alt="Lands of Corruption" className="hero-logo" />
           <h1 className="sr-only">Lands of Corruption</h1>
-          <p className="hero-subtitle">
-            Uma aventura de RPG desenvolvida como Trabalho de Conclusão de Curso.
-          </p>
           <a
             className="btn-download"
             href="#LINK_DO_DOWNLOAD_AQUI"

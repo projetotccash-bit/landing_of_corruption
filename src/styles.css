@@ -110,13 +110,19 @@ section h2 {
   min-height: 80vh;
   scroll-margin-top: 80px;
 }
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 /* LOGO DO TÍTULO NO HERO — IMAGEM */
 .hero-logo {
-  max-width: 420px;
+  max-width: 440px;
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 0 20px;
+  margin: 0 auto 32px auto;
   object-fit: contain;
 }
 
@@ -132,27 +138,25 @@ section h2 {
   white-space: nowrap;
   border: 0;
 }
-.hero-subtitle {
-  font-size: 1.15rem;
-  color: var(--cor-texto-suave);
-  margin: 0 0 32px;
-  max-width: 480px;
-}
 .btn-download {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--cor-destaque);
   color: #ffffff;
-  font-weight: 700;
-  font-size: 1.05rem;
-  padding: 16px 36px;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  padding: 18px 52px;
   border-radius: var(--raio);
   text-decoration: none;
-  box-shadow: var(--sombra-suave);
-  transition: transform 0.2s ease, background 0.2s ease;
+  box-shadow: 0 8px 24px rgba(95, 179, 217, 0.35);
+  transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
 }
 .btn-download:hover {
   background: var(--cor-destaque-hover);
-  transform: translateY(-2px);
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 12px 32px rgba(95, 179, 217, 0.5);
 }
 
 /* ===== CARROSSEL DE IMAGENS ===== */
