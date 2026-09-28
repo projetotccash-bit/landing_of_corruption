@@ -5,4 +5,7 @@ dist
 *.log
 .env
 .env.local
+*.mp4
+src/assets/trailer.mp4
 public/trailer.mp4
+*.tsbuildinfo

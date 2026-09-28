@@ -3,6 +3,7 @@ import slide01 from "./assets/slide-01.png";
 import slide02 from "./assets/slide-02.png";
 import slide03 from "./assets/slide-03.png";
 import logo from "./assets/logo.webp";
+import logoTitle from "./assets/logo-title.png";
 
 // Características
 import exploracaoImg from "./assets/exploracao.png";
@@ -47,7 +48,8 @@ export default function App() {
 
       <section className="hero" id="inicio">
         <div className="hero-content">
-          <h1 className="hero-title">Lands of Corruption</h1>
+          <img src={logoTitle} alt="Lands of Corruption" className="hero-logo" />
+          <h1 className="sr-only">Lands of Corruption</h1>
           <p className="hero-subtitle">
             Uma aventura de RPG desenvolvida como Trabalho de Conclusão de Curso.
           </p>
