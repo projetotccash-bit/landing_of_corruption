@@ -72,15 +72,9 @@ section h2 {
   gap: 10px;
 }
 .site-header .logo img {
-  height: 40px;
+  height: 44px;
   width: auto;
   display: block;
-  filter: drop-shadow(0 0 10px rgba(95, 179, 217, 0.4));
-  transition: filter 0.3s ease, transform 0.3s ease;
-}
-.site-header .logo:hover img {
-  filter: drop-shadow(0 0 15px rgba(95, 179, 217, 0.7));
-  transform: scale(1.04);
 }
 
 /* MENU DE NAVEGAÇÃO */
@@ -118,17 +112,12 @@ section h2 {
 }
 /* LOGO DO TÍTULO NO HERO — IMAGEM */
 .hero-logo {
-  max-width: 460px;
+  max-width: 420px;
   width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 20px;
-  filter: drop-shadow(0 0 20px rgba(95, 179, 217, 0.4)) drop-shadow(0 0 6px rgba(255, 255, 255, 0.6));
-  transition: filter 0.3s ease, transform 0.3s ease;
-}
-.hero-logo:hover {
-  transform: translateY(-2px) scale(1.02);
-  filter: drop-shadow(0 0 30px rgba(95, 179, 217, 0.65)) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+  margin: 0 0 20px;
+  object-fit: contain;
 }
 
 /* Acessibilidade — esconde texto visualmente mas mantém pra leitores de tela */

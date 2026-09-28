@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import slide01 from "./assets/slide-01.png";
 import slide02 from "./assets/slide-02.png";
 import slide03 from "./assets/slide-03.png";
+import logo from "./assets/logo.webp";
 import logoTitle from "./assets/logo-title.png";
 
 // Características
@@ -32,7 +33,7 @@ export default function App() {
       <header className="site-header">
         <div className="header-inner">
           <a href="#inicio" className="logo" aria-label="Início">
-            <img src={logoTitle} alt="Logo Lands of Corruption" />
+            <img src={logo} alt="Logo Lands of Corruption" />
           </a>
 
           <nav>
