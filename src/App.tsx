@@ -52,9 +52,8 @@ export default function App() {
           <h1 className="sr-only">Lands of Corruption</h1>
           <a
             className="btn-download"
-            href="#LINK_DO_DOWNLOAD_AQUI"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://github.com/projetotccash-bit/landing_of_corruption/releases/download/v1.0.0/landsofcorruption.rar"
+            download
           >
             Baixar Jogo
           </a>
